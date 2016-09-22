@@ -1,4 +1,4 @@
-IRkernel Jupyter Notebooks to R Markdown Convert
+Convert IRkernel Jupyter Notebooks to R Markdown 
 ================================================
 
 Usage
