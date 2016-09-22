@@ -35,7 +35,7 @@ setup(
         ]
     },
     description="Convert IRkernel Jupyter Notebooks to R Markdown",
-    long_description=open("README.md").read(),
+    long_description=open("README.rst").read(),
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 2",
