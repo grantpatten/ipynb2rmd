@@ -1,0 +1,48 @@
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+---
+title: "Example Document"
+author: "Grant Patten"
+date: "20 September 2016"
+output:
+    pdf_document:
+        theme: readable
+        highlight: zenburn
+---
+
+# Include False
+
+```{r include=FALSE}
+print("include=FALSE")
+plot(c(1,2,3), c(4,5,6))
+```
+
+
+# Echo=False
+
+```{r echo=FALSE}
+print("echo=FALSE")
+plot(c(1,2,3), c(4,5,6))
+```
+
+
+# No Chunk Options
+
+```{r}
+print("No Chunk Options")
+plot(c(1,2,3), c(4,5,6))
+```
+
+
+\newpage
+# New Page
+
+```{r}
+# Example Plot
+plot(c(1,2,3), c(4,5,6))
+```
+
+
