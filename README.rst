@@ -6,14 +6,26 @@ Usage
 
 .. code-block:: bash
 
-    ipynb2rmd test.ipynb  # Generate test.rmd
-    ipynb2rmd test.ipynb --compile  # Generate test.rmd and run R Markdown render
+    # Generate test.rmd
+    $ ipynb2rmd test.ipynb
+    
+    # Generate test.rmd and run R Markdown to render as pdf
+    $ ipynb2rmd test.ipynb --compile  
 
 
 Chunk Options
 -------------
 
 To use rmarkdown chunk options in your Jupyter notebook, start a code cell with `#r <chunk options>`.
+
+Installation
+------------
+
+To install ipynb2rmd, simply:
+
+.. code-block:: bash
+
+    $ pip install ipynb2rmd
 
 Requirements
 ------------
