@@ -1,4 +1,4 @@
-Convert IRkernel Jupyter Notebooks to R Markdown 
+Convert IRkernel Jupyter Notebooks to R Markdown
 ================================================
 
 Usage
@@ -8,9 +8,12 @@ Usage
 
     # Generate test.rmd
     $ ipynb2rmd test.ipynb
-    
+
     # Generate test.rmd and run R Markdown to render as pdf
-    $ ipynb2rmd test.ipynb --compile  
+    $ ipynb2rmd test.ipynb --compile
+
+    # Compile an already existing rmd file
+    $ ipynb2rmd test.rmd --compile
 
 
 Chunk Options
